@@ -49,6 +49,7 @@ nav {
     text-align: center;
     color: #ffa500;
     font-family:'Inconsolata', monospace;
+    margin-top: 2rem;
 }
 
 .serv-para {
@@ -59,15 +60,53 @@ nav {
     display:flex;
     align-items: center;
     justify-content: space-between;
+    text-align: center;
 }
 
 .serv-links {
     display: flex;
+    flex-grow: 1;
     list-style: none;
+    margin:auto;
 }
 
-.serv-links li {
+.boxy {
     padding:2rem;
     font-size: 1.1rem;
     font-family: 'Inconsolata', monospace;
+    text-align: center;
+    margin: 2rem;
+}
+
+.boxy i {
+    font-size: 3rem;
+    color:#ffa500;
+}
+
+.boxy ul li {
+    list-style-type: none;
+    color: darkgray;
+    line-height: 150%;
+}
+
+.repair h2 {
+    padding: 1rem;
+    border-bottom: 1px solid blue;
+    
+}
+
+.deliv h2 {
+    border-bottom: 1px solid red;
+    padding: 1rem;
+}
+
+
+.insure h2 {
+    padding:1rem;
+    border-bottom: 1px solid green;
+}
+
+.secure h2{
+    border-bottom: 1px solid yellow;
+    padding: 1rem;
 }
