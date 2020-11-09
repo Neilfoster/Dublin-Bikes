@@ -56,18 +56,13 @@ nav {
     text-align: center;
     font-family:'Inconsolata', monospace;
 }
-.serv {
-    display:flex;
-    align-items: center;
-    justify-content: space-between;
-    text-align: center;
-}
 
 .serv-links {
     display: flex;
-    flex-grow: 1;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-basis: 400px;
     list-style: none;
-    margin:auto;
 }
 
 .boxy {
@@ -76,6 +71,7 @@ nav {
     font-family: 'Inconsolata', monospace;
     text-align: center;
     margin: 2rem;
+    width: 25%;
 }
 
 .boxy i {
@@ -92,7 +88,6 @@ nav {
 .repair h2 {
     padding: 1rem;
     border-bottom: 1px solid blue;
-    
 }
 
 .deliv h2 {
