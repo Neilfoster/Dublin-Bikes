@@ -135,6 +135,11 @@ nav {
     margin-bottom: 1%;
     width:200px;
     border-radius: 5%;
-    background-color:#ffe6b8;
-    color:black;
+    background-color:black;
+    color:#ffa500;
+    transition:2s;
+}
+
+.order a:hover {
+    background-color: #5f5f5f;
 }
