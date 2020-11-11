@@ -222,3 +222,40 @@ nav {
     font-family: 'Inconsolata', monospace;
     color: #ffa500;
 }
+
+/*------- Custom ----------*/
+
+.custom {
+    background-color:white;
+}
+
+.custom-head {
+    font-family:'Inconsolata', monospace;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.custom-chat {
+    display: flex;
+    flex-direction: row;
+}
+
+.chat-head {
+    margin:40px;
+    padding:20px;
+    font-size:1.2rem;
+    font-family: 'Chilanka', cursive;
+    border: 1px solid #ffa500;
+}
+
+.chat-head i {
+    color:#ffa500;
+}
+
+.user-name {
+    padding:20px;
+    color:#5f5f5f;
+    font-family:'Inconsolata', monospace;
+}
