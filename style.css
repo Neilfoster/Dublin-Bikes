@@ -377,6 +377,11 @@ nav {
     padding:1%;
 }
 
+.det-box i {
+    padding-top:7%;
+    font-size:2rem;
+}
+
 .footer-hds ul {
     display: flex;
     flex-direction: row;
