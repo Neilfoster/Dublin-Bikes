@@ -430,6 +430,19 @@ nav {
     border-bottom:1px solid black;
 }
 
+.footer-hds ul a {
+    text-decoration: none;
+    color: black;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition:all 0.5s ease-in-out;
+    -moz-transition:all 0.5s ease-in-out;
+    -o-transition:all 0.5s ease-in-out;
+}
+
+.footer-hds ul a:hover {
+    color:#ffa500;
+}
+
 .footer-sig {
     text-align: center;
     padding: 2% 0;
