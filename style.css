@@ -19,6 +19,7 @@ main {
 #logo {
     font-family: 'Chilanka', cursive;
     font-weight: lighter;
+    letter-spacing: 2px;
     font-size: 3rem;
     color: #ffa500;
     padding-top:1rem;
@@ -42,6 +43,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    min-height: 8vh;
 }
 
 .nav-links {
@@ -64,6 +66,16 @@ nav {
     color: #ffa500;
 }
 
+.burger {
+    display:none;
+}
+
+.burger div{
+    width: 25px;
+    height:3px;
+    background-color: #ffa500;
+    margin: 5px;
+}
 /*------- Services ----------*/
 
 .serv-head {
@@ -378,6 +390,7 @@ nav {
 }
 
 /*------- Footer ----------*/
+
 .footer-det {
     display: flex;
     justify-content: space-evenly;
@@ -447,3 +460,45 @@ nav {
     text-align: center;
     padding: 2% 0;
 }
+
+/*------- Media Queries ----------*/
+
+@media only screen and (max-width: 768px) {
+    body{
+        overflow-x: hidden;
+    }
+    .nav-links{
+        position: absolute;
+        right:0px;
+        height: 100vh;
+        width: 50%;
+        top:8vh;
+        background-color:rgb(255, 165, 0, 0.9);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+    }
+    .nav-links li{
+        opacity: 0;
+    }
+    .burger{
+        display: block;
+    }
+  }
+
+  .nav-active{
+      transform: translateX(0%);
+  }
+
+  @keyframes navLinkFade{
+      from{
+            opacity: 0;
+            transform: translateX(50px)
+      }
+      to{
+        opacity: 1;
+        transform: translateX(0px);
+      }
+  }
