@@ -75,6 +75,7 @@ nav {
     height:3px;
     background-color: #ffa500;
     margin: 5px;
+    transition: all 0.3s ease;
 }
 /*------- Services ----------*/
 
@@ -483,6 +484,7 @@ nav {
     .nav-links li{
         opacity: 0;
     }
+    
     .burger{
         display: block;
     }
@@ -490,6 +492,7 @@ nav {
 
   .nav-active{
       transform: translateX(0%);
+      padding-bottom: 20px;
   }
 
   @keyframes navLinkFade{
