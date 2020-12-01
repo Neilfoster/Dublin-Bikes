@@ -494,6 +494,23 @@ nav {
     .burger{
         display: block;
     }
+
+    .serv-links {
+        flex-direction: column;
+        flex-basis: auto;
+        list-style: none;
+        margin:0;
+    }
+
+    .boxy {
+        padding:0;
+        width:100%;
+        margin:0;
+    }
+
+    .repair i{
+        margin-top:2rem;
+    }
   }
 
   .nav-active{
@@ -523,3 +540,18 @@ nav {
   .toggle .line3{
         transform: rotate(45deg) translate(-5px,-6px);
 }
+
+@media screen and (max-width: 991px) {
+    /* start of large tablet styles */
+    
+    }
+    
+    @media screen and (max-width: 767px) {
+    /* start of medium tablet styles */
+    
+    }
+    
+    @media screen and (max-width: 479px) {
+    /* start of phone styles */
+    
+    }
