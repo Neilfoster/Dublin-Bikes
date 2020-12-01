@@ -511,6 +511,27 @@ nav {
     .repair i{
         margin-top:2rem;
     }
+
+    .custom-chat {
+        flex-direction: column;
+    }
+
+    .range-bikes {
+        flex-direction: column;
+    }
+
+    .range-bikes img {
+        margin: auto;
+        margin-top:1rem;
+    }
+
+    .footer-det {
+        flex-direction: column;
+    }
+
+    .det-box table {
+        margin: auto;
+    }
   }
 
   .nav-active{
