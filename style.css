@@ -466,11 +466,14 @@ nav {
 /*------- Media Queries ----------*/
 
 @media only screen and (max-width: 768px) {
+    html{
+        overflow-x:hidden;
+    }
     body{
         overflow-x: hidden;
     }
     .nav-links{
-        position: absolute;
+        position: fixed;
         right:0px;
         height: 92vh;
         width: 50%;
@@ -535,6 +538,10 @@ nav {
 
     .det-box h3 {
         padding:2%;
+    }
+
+    .footer-hds{
+        display:none;
     }
   }
 
