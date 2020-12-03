@@ -532,6 +532,10 @@ nav {
     .det-box table {
         margin: auto;
     }
+
+    .det-box h3 {
+        padding:2%;
+    }
   }
 
   .nav-active{
